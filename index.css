@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Iso&family=Silkscreen&display=swap");
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Rubik Iso', cursive;
+font-family: 'Silkscreen', cursive; */
+
+html {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-family: "Rubik Iso", cursive;
+  margin: auto;
+}
+
+i {
+  transition: transform 0.2s;
+}
+i:hover {
+  transform: scale(1.2);
+}
+
+.page {
+  text-align: center;
+  width: 50%;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.socials {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
